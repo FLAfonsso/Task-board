@@ -48,3 +48,24 @@ task-board/
 ├── tsconfig.json          # Configuração principal do TypeScript
 ├── tsconfig.node.json     # Configuração TypeScript para o ambiente Node
 └── vite.config.ts         # Configuração do Vite
+
+🛠️ Como executar
+
+Clone o repositório, instale as dependências e inicie o servidor de desenvolvimento:
+
+git clone https://github.com/FLAfonsso/Task-board.git
+cd Task-board
+npm install
+npm run dev
+
+Depois, acesse o endereço informado pelo Vite no terminal.
+
+Outros comandos
+npm run build      # Gera a versão de produção
+npm run preview    # Visualiza a build de produção localmente
+npm run lint       # Executa a análise do ESLint
+🎯 Objetivo do projeto
+
+O Task Board faz parte do portfólio de desenvolvimento front-end e tem como objetivo explorar a construção de uma aplicação moderna com React e TypeScript, aplicando boas práticas de organização, validação, gerenciamento de dados e escalabilidade.
+
+Desenvolvido por Pedro Afonso.
